@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "lastSync": {
+    "updated": [],
+    "deleted": [],
+    "skipped": [],
+    "unchanged": [
+      "automation",
+      "binding",
+      "blueprint",
+      "canvas",
+      "in-app-browser",
+      "kimi-design",
+      "kimi-slides",
+      "plugin-builder",
+      "skill-creator",
+      "webapp-building",
+      "widget",
+      "widgetdesign"
+    ]
+  },
+  "skills": [
+    "automation",
+    "binding",
+    "blueprint",
+    "canvas",
+    "in-app-browser",
+    "kimi-design",
+    "kimi-slides",
+    "plugin-builder",
+    "skill-creator",
+    "webapp-building",
+    "widget",
+    "widgetdesign"
+  ],
+  "sourceRoot": "D:\\KimiData\\daimon-bundle\\app\\daimon\\assets\\builtin-skills",
+  "updatedAt": "2026-09-17T12:53:30.306Z"
+}

@@ -1,0 +1,37 @@
+# conf-papers skill 专用配置
+# 支持所有学科领域：管理学、教育学、AI、农学、医学、工学等
+
+# 感兴趣的关键词（用于筛选论文，可自定义）
+# 示例：
+#   - 水产品营销策略
+#   - 企业数字化转型
+#   - 教育技术学
+#   - 机器学习
+keywords: []
+
+# 排除的关键词（如不需要可留空）
+excluded_keywords: []
+
+# 默认搜索年份（命令行参数可覆盖）
+# 硕士论文建议使用近5年文献（2019-2024）
+default_year: 2024
+
+# 默认搜索的会议/期刊类型（命令行参数可覆盖）
+# 类型选项：
+#   中文期刊: CSSCI, CSCD, 北大核心
+#   中文论文: 硕士论文, 博士论文
+#   英文顶会: CVPR, ICCV, ECCV, ICLR, AAAI, NeurIPS, ICML
+#   英文期刊: IEEE, Springer, Nature, Science
+default_conferences:
+  - "硕士论文"
+  - "CSSCI"
+
+# 返回的论文数量
+top_n: 10
+
+# 文献类型偏好（比例，可调整）
+# 硕士论文建议比例：中文核心40% + 硕士论文40% + 英文20%
+paper_type_ratio:
+  chinese_journal: 0.4
+  chinese_thesis: 0.4
+  english_paper: 0.2

@@ -1,0 +1,158 @@
+name: cnki-literature-check
+version: 1.0.0
+description: >
+  批量在中国知网(CNKI)检索学术文献，
+  自动提取 GB/T 7714-2015 格式引文、摘要、关键词等元数据。
+  支持单篇检索和批量检索，输出 Markdown 或 JSON 格式。
+type: browser_automation
+category: academic_research
+
+author: user
+license: MIT
+
+# 触发条件 - 跨平台兼容
+triggers:
+  keywords:
+    - 检索知网
+    - 知网文献
+    - 文献引文
+    - GB/T 7714
+    - 文献综述
+    - 参考文献
+    - 文献摘要
+    - 批量检索
+    - search cnki
+    - cnki literature
+    - get citation
+  intents:
+    - 检索.*知网.*文献
+    - 获取.*引文
+    - 查.*摘要
+    - 整理.*参考文献
+    - 批量检索.*文献
+
+# 输入参数
+parameters:
+  titles:
+    type: list[string]
+    required: true
+    description: 文献标题列表
+
+  output_format:
+    type: string
+    required: false
+    default: markdown
+    enum:
+      - markdown
+      - json
+    description: 输出格式
+
+  delay:
+    type: integer
+    required: false
+    default: 3
+    description: 检索间隔秒数
+
+# 所需浏览器工具
+tools:
+  required:
+    - browser_navigate
+    - browser_type
+    - browser_click
+    - browser_evaluate
+    - browser_wait_for
+    - browser_snapshot
+  optional: []
+
+# 工作流程
+workflow:
+  steps:
+    - name: parse_input
+      description: 解析用户输入，提取文献标题列表
+
+    - name: search_articles
+      description: 批量检索每篇文献
+      loop:
+        for_each: titles
+        delay: "{{ delay }}"
+
+    - name: extract_metadata
+      description: 从详情页提取元数据（摘要、关键词、DOI、年份、卷期、页码）
+
+    - name: generate_citations
+      description: 生成 GB/T 7714-2015 格式引文
+
+    - name: output_results
+      description: 按指定格式输出结果
+
+# 输出结构
+output_schema:
+  articles:
+    type: array
+    items:
+      type: object
+      properties:
+        title:
+          type: string
+          description: 文献标题
+        authors:
+          type: string
+          description: 作者
+        journal:
+          type: string
+          description: 期刊/来源
+        year:
+          type: string
+          description: 出版年份
+        volume:
+          type: string
+          description: 卷(期)
+        pages:
+          type: string
+          description: 页码
+        doi:
+          type: string
+          description: DOI
+        abstract:
+          type: string
+          description: 摘要
+        keywords:
+          type: string
+          description: 关键词
+        citation:
+          type: string
+          description: GB/T 7714-2015 格式引文
+  failed:
+    type: array
+    items:
+      type: string
+    description: 检索失败的文献标题
+
+# 示例
+examples:
+  - input: |
+      请检索知网文献"基于DBR的再制造系统缓冲设置模型研究"
+    output: |
+      返回该文献的 GB/T 7714 引文、摘要、关键词等信息
+
+  - input: |
+      批量检索以下文献：
+      1. 基于DBR的再制造系统缓冲设置模型研究
+      2. 再制造系统生产计划优化方法
+    output: |
+      返回多篇文献的引文和摘要列表
+
+# 已知限制
+limitations:
+  - 知网可能弹出安全验证，需人工干预
+  - 建议每次不超过10篇，间隔3秒以上
+  - 需要稳定的网络连接
+  - 自动提取信息需人工核对
+  - 作者和期刊名需从页面补充提取
+
+# 依赖
+dependencies:
+  - playwright
+
+# 入口文件
+entry_point: README.md

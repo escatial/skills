@@ -1,0 +1,67 @@
+2026-05-16 10:27:14,314 [RELAY] INFO server listening on 127.0.0.1:62030
+2026-05-16 10:27:14,314 [RELAY] INFO server listening on 127.0.0.1:62031
+2026-05-16 10:27:14,314 [RELAY] INFO Relay daemon started  chrome=62030  mcp=62031  pid=14060
+2026-05-16 10:27:14,367 [RELAY] INFO connection open
+2026-05-16 10:27:14,367 [RELAY] INFO MCP connected ('127.0.0.1', 54142)  (total: 1)
+2026-05-16 10:27:16,189 [RELAY] INFO connection open
+2026-05-16 10:27:16,189 [RELAY] INFO Chrome connected ('127.0.0.1', 54143)  (total: 1)
+2026-05-16 10:27:16,205 [RELAY] INFO MCP¡úChrome: registered route session_id=3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37
+2026-05-16 10:27:21,442 [RELAY] INFO Chrome¡úMCP: routed by session_id=3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37
+2026-05-16 10:27:21,482 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-16 10:27:21,482 [RELAY] INFO MCP disconnected ('127.0.0.1', 54142)  (Chrome stays connected: 1)
+2026-05-16 10:32:05,056 [RELAY] INFO connection open
+2026-05-16 10:32:05,056 [RELAY] INFO MCP connected ('127.0.0.1', 54908)  (total: 1)
+2026-05-16 10:32:05,056 [RELAY] INFO Delivering 32 buffered Chrome message(s) to MCP
+2026-05-16 10:32:05,112 [RELAY] INFO MCP disconnected ('127.0.0.1', 54908)  (Chrome stays connected: 1)
+2026-05-16 10:36:52,240 [RELAY] INFO connection open
+2026-05-16 10:36:52,241 [RELAY] INFO MCP connected ('127.0.0.1', 55516)  (total: 1)
+2026-05-16 10:36:52,241 [RELAY] INFO Delivering 27 buffered Chrome message(s) to MCP
+2026-05-16 10:36:52,277 [RELAY] INFO MCP¡úChrome: registered route session_id=7c3644a5-e7c0-41bb-8c4a-6d1753518a69
+2026-05-16 10:36:56,438 [RELAY] INFO Chrome¡úMCP: routed by session_id=7c3644a5-e7c0-41bb-8c4a-6d1753518a69
+2026-05-16 10:36:56,468 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-16 10:36:56,468 [RELAY] INFO MCP disconnected ('127.0.0.1', 55516)  (Chrome stays connected: 1)
+2026-05-16 10:37:27,232 [RELAY] INFO connection open
+2026-05-16 10:37:27,233 [RELAY] INFO MCP connected ('127.0.0.1', 55651)  (total: 1)
+2026-05-16 10:37:27,233 [RELAY] INFO Delivering 7 buffered Chrome message(s) to MCP
+2026-05-16 10:37:27,257 [RELAY] INFO MCP¡úChrome: registered route session_id=b3ef77ed-41f7-4e6b-9608-7d9a4c09c377
+2026-05-16 10:37:34,723 [RELAY] INFO Chrome¡úMCP: routed by session_id=b3ef77ed-41f7-4e6b-9608-7d9a4c09c377
+2026-05-16 10:37:34,754 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-16 10:37:34,754 [RELAY] INFO MCP disconnected ('127.0.0.1', 55651)  (Chrome stays connected: 1)
+2026-05-16 10:46:42,038 [RELAY] INFO connection open
+2026-05-16 10:46:42,038 [RELAY] INFO MCP connected ('127.0.0.1', 58118)  (total: 1)
+2026-05-16 10:46:42,039 [RELAY] INFO Delivering 140 buffered Chrome message(s) to MCP
+2026-05-16 10:46:42,104 [RELAY] INFO MCP¡úChrome: registered route session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:46:51,172 [RELAY] INFO Chrome¡úMCP: routed by session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:46:51,207 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-16 10:46:51,207 [RELAY] INFO MCP disconnected ('127.0.0.1', 58118)  (Chrome stays connected: 1)
+2026-05-16 10:48:12,566 [RELAY] INFO connection open
+2026-05-16 10:48:12,566 [RELAY] INFO MCP connected ('127.0.0.1', 58585)  (total: 1)
+2026-05-16 10:48:12,566 [RELAY] INFO Delivering 37 buffered Chrome message(s) to MCP
+2026-05-16 10:48:12,594 [RELAY] INFO MCP¡úChrome: registered route session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:48:13,397 [RELAY] INFO Chrome¡úMCP: routed by session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:48:20,093 [RELAY] INFO Chrome¡úMCP: routed by session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:48:21,129 [RELAY] INFO Chrome¡úMCP: routed by session_id=bf1a8d07-2203-4bec-b2ac-f4523f349e97
+2026-05-16 10:48:21,163 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-16 10:48:21,163 [RELAY] INFO MCP disconnected ('127.0.0.1', 58585)  (Chrome stays connected: 1)
+2026-05-23 23:43:46,015 [RELAY] INFO server listening on 127.0.0.1:62030
+2026-05-23 23:43:46,016 [RELAY] INFO server listening on 127.0.0.1:62031
+2026-05-23 23:43:46,016 [RELAY] INFO Relay daemon started  chrome=62030  mcp=62031  pid=41972
+2026-05-23 23:43:46,019 [RELAY] INFO connection open
+2026-05-23 23:43:46,019 [RELAY] INFO MCP connected ('127.0.0.1', 58432)  (total: 1)
+2026-05-23 23:43:48,314 [RELAY] INFO connection open
+2026-05-23 23:43:48,314 [RELAY] INFO Chrome connected ('127.0.0.1', 58440)  (total: 1)
+2026-05-23 23:43:48,320 [RELAY] INFO MCP¡úChrome: registered route session_id=cea9299e-8e47-440d-a8b5-5b8e91e6ed8a
+2026-05-23 23:43:53,726 [RELAY] INFO Chrome¡úMCP: routed by session_id=cea9299e-8e47-440d-a8b5-5b8e91e6ed8a
+2026-05-23 23:43:53,756 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-23 23:43:53,756 [RELAY] INFO MCP disconnected ('127.0.0.1', 58432)  (Chrome stays connected: 1)
+2026-05-23 23:48:24,625 [RELAY] INFO connection open
+2026-05-23 23:48:24,625 [RELAY] INFO MCP connected ('127.0.0.1', 59214)  (total: 1)
+2026-05-23 23:48:24,626 [RELAY] INFO Delivering 25 buffered Chrome message(s) to MCP
+2026-05-23 23:48:24,653 [RELAY] INFO MCP¡úChrome: registered route session_id=aa1cea4c-85c3-4e50-95bc-9a199503d112
+2026-05-23 23:48:30,380 [RELAY] INFO Chrome¡úMCP: routed by session_id=aa1cea4c-85c3-4e50-95bc-9a199503d112
+2026-05-23 23:48:30,416 [RELAY] INFO MCP disconnect: cleaned 1 routing entries
+2026-05-23 23:48:30,416 [RELAY] INFO MCP disconnected ('127.0.0.1', 59214)  (Chrome stays connected: 1)
+2026-05-24 00:12:24,976 [RELAY] INFO tab_closed: removed tab 401742103 + associated sessions
+2026-05-24 00:12:24,982 [RELAY] INFO window_closed: cleared tab pool
+2026-05-24 00:12:24,984 [RELAY] INFO Chrome disconnected ('127.0.0.1', 58440)  (total: 0)
+2026-05-24 00:12:24,988 [RELAY] INFO session pool cleared (all Chrome disconnected)

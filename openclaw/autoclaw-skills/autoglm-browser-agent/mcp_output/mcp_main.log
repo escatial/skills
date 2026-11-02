@@ -1,0 +1,128 @@
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:27:14,347 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:27:14,348 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:27:14,367 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:27:21,457 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-16 10:32:05,031 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:32:05,031 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:32:05,031 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:32:05,032 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:32:05,033 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:32:05,057 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:32:05,082 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-16 10:36:52,214 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:36:52,215 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:36:52,216 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:36:52,216 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:36:52,216 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:36:52,217 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:36:52,242 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:36:56,450 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-16 10:37:27,212 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:37:27,212 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:37:27,212 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:37:27,212 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:37:27,212 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:37:27,213 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:37:27,233 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:37:34,734 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-16 10:46:42,016 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:46:42,017 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:46:42,018 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:46:42,039 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:46:51,182 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-16 10:48:12,543 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-16 10:48:12,544 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-16 10:48:12,545 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-16 10:48:12,567 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-16 10:48:21,140 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-23 23:43:45,799 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-23 23:43:45,800 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-23 23:43:45,801 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-23 23:43:45,801 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-23 23:43:45,801 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-23 23:43:46,020 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-23 23:43:53,737 -- <__main__.py/main 312> [MAIN] 👋 Server stopped
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 208> ============================================================
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 209> AutoGLM MCP Server -- subagent 模式
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 211> Subagent API Key: EMPTY
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 212> Subagent Base URL: EMPTY
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 213> ============================================================
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 214> Output Dir: C:\Users\安\.openclaw-autoclaw\skills\autoglm-browser-agent\mcp_output
+[INFO] 2026-05-23 23:48:24,608 -- <__main__.py/main 215> Ws Port: auto
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 216> Window Size: 1456x819 → 1456x819
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 217> Max Steps: 100
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 218> Manual Interact: False
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 219> Generate Data Mode: False
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 225> Start URL: https://www.bing.com
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 228> ============================================================
+[INFO] 2026-05-23 23:48:24,609 -- <__main__.py/main 235> [MAIN] 📌 Preferred port from active_port: 62030
+[INFO] 2026-05-23 23:48:24,626 -- <__main__.py/main 247> [MAIN] 🔗 relay daemon detected on port 62031
+[INFO] 2026-05-23 23:48:30,393 -- <__main__.py/main 312> [MAIN] 👋 Server stopped

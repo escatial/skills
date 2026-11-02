@@ -1,0 +1,125 @@
+[INFO] 2026-05-16 10:27:14,369 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:27:14,369 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:27:14,380 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-16 10:27:14,380 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '在中国知网搜索关键词：养猪场知识库系统，搜索10篇期刊论文和5篇硕士学位论文，收集每篇的题目和摘要并输出。', 'feishu_message_id': 'om_x100b6f49172434bcb4b873181f8dbba', 'feishu_chat_id': 'ou_fe4d8d8d45c2c75691a96975cbd878c3'}
+[ERROR] 2026-05-16 10:27:21,450 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'session_id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_d9418abc04124106bac3b9e5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_d9418abc04124106bac3b9e5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efe408a2-e105-4d69-a261-bec9eebbf08b/3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37_action_2.png'}}
+[ERROR] 2026-05-16 10:27:21,452 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'session_id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_d9418abc04124106bac3b9e5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_d9418abc04124106bac3b9e5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efe408a2-e105-4d69-a261-bec9eebbf08b/3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37_action_2.png'}}
+
+[INFO] 2026-05-16 10:27:21,452 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-16 10:27:21,453 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'session_id': '3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_d9418abc04124106bac3b9e5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_d9418abc04124106bac3b9e5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efe408a2-e105-4d69-a261-bec9eebbf08b/3fa3e54f-5874-4ae6-a5ee-a6f6cd729f37_action_2.png'}}
+[INFO] 2026-05-16 10:27:21,457 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:27:21,457 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:27:21,457 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:27:21,457 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:32:05,059 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:32:05,059 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:32:05,082 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:32:05,082 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:32:05,082 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:32:05,082 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:36:52,244 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:36:52,244 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:36:52,263 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-16 10:36:52,263 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '去中国知网 https://kns.cnki.net 搜索10篇关于养猪场知识库系统相关的期刊论文，收集每篇的题目和摘要；另外搜索5篇相关的硕士学位论文，收集每篇的题目和摘要。把所有结果整理输出。', 'feishu_message_id': 'om_x100b6f49cdb66cacb300698768ab3f7', 'feishu_chat_id': 'ou_fe4d8d8d45c2c75691a96975cbd878c3'}
+[ERROR] 2026-05-16 10:36:56,444 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'session_id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_8618ccf6a8c04c0fbd3e45b8', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_8618ccf6a8c04c0fbd3e45b8'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/ff71ff0a-0d58-480d-a677-626d113e1032/7c3644a5-e7c0-41bb-8c4a-6d1753518a69_action_2.png'}}
+[ERROR] 2026-05-16 10:36:56,446 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'session_id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_8618ccf6a8c04c0fbd3e45b8', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_8618ccf6a8c04c0fbd3e45b8'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/ff71ff0a-0d58-480d-a677-626d113e1032/7c3644a5-e7c0-41bb-8c4a-6d1753518a69_action_2.png'}}
+
+[INFO] 2026-05-16 10:36:56,446 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-16 10:36:56,446 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'session_id': '7c3644a5-e7c0-41bb-8c4a-6d1753518a69', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_8618ccf6a8c04c0fbd3e45b8', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_8618ccf6a8c04c0fbd3e45b8'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/ff71ff0a-0d58-480d-a677-626d113e1032/7c3644a5-e7c0-41bb-8c4a-6d1753518a69_action_2.png'}}
+[INFO] 2026-05-16 10:36:56,449 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:36:56,449 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:36:56,449 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:36:56,449 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:37:27,235 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:37:27,236 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:37:27,246 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-16 10:37:27,246 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '去中国知网 https://kns.cnki.net 搜索10篇关于养猪场知识库系统相关的期刊论文，收集每篇的题目和摘要；另外搜索5篇相关的硕士学位论文，收集每篇的题目和摘要。把所有结果整理输出。', 'start_url': 'https://kns.cnki.net', 'feishu_message_id': 'om_x100b6f49cdb66cacb300698768ab3f7', 'feishu_chat_id': 'ou_fe4d8d8d45c2c75691a96975cbd878c3'}
+[ERROR] 2026-05-16 10:37:34,729 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'session_id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_ea2c52c614fa4e63b1f75984', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_ea2c52c614fa4e63b1f75984'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/b6aa7d91-acf7-455b-a1f9-3a75d9a8bfda/b3ef77ed-41f7-4e6b-9608-7d9a4c09c377_action_2.png'}}
+[ERROR] 2026-05-16 10:37:34,730 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'session_id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_ea2c52c614fa4e63b1f75984', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_ea2c52c614fa4e63b1f75984'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/b6aa7d91-acf7-455b-a1f9-3a75d9a8bfda/b3ef77ed-41f7-4e6b-9608-7d9a4c09c377_action_2.png'}}
+
+[INFO] 2026-05-16 10:37:34,730 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-16 10:37:34,730 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'session_id': 'b3ef77ed-41f7-4e6b-9608-7d9a4c09c377', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_ea2c52c614fa4e63b1f75984', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_ea2c52c614fa4e63b1f75984'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/b6aa7d91-acf7-455b-a1f9-3a75d9a8bfda/b3ef77ed-41f7-4e6b-9608-7d9a4c09c377_action_2.png'}}
+[INFO] 2026-05-16 10:37:34,734 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:37:34,734 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:37:34,734 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:37:34,734 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:46:42,043 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:46:42,043 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:46:42,089 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-16 10:46:42,089 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '在中国知网搜索养猪场知识库系统，搜索10篇期刊论文和5篇硕士学位论文，收集每篇的题目和摘要并输出。', 'start_url': 'https://kns.cnki.net', 'feishu_message_id': 'om_x100b6f49c3b8ecb4b2147623c86fc62', 'feishu_chat_id': 'ou_fe4d8d8d45c2c75691a96975cbd878c3'}
+[ERROR] 2026-05-16 10:46:51,177 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_300513bb6d4740c9a666b606', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_300513bb6d4740c9a666b606'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/3aa38805-b468-4219-9b97-73f529607174/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+[ERROR] 2026-05-16 10:46:51,178 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_300513bb6d4740c9a666b606', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_300513bb6d4740c9a666b606'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/3aa38805-b468-4219-9b97-73f529607174/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+
+[INFO] 2026-05-16 10:46:51,179 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-16 10:46:51,179 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_300513bb6d4740c9a666b606', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_300513bb6d4740c9a666b606'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/3aa38805-b468-4219-9b97-73f529607174/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+[INFO] 2026-05-16 10:46:51,182 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:46:51,182 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:46:51,182 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:46:51,182 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:48:12,569 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-16 10:48:12,569 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-16 10:48:12,584 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-16 10:48:12,584 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '继续之前的任务：从当前页面收集养猪场知识库系统相关的期刊论文和硕士学位论文的题目和摘要。剩余任务是：完成搜索并收集10篇期刊和5篇硕论的题目摘要。', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'tab_id': '', 'feishu_message_id': 'om_x100b6f49c3b8ecb4b2147623c86fc62', 'feishu_chat_id': 'ou_fe4d8d8d45c2c75691a96975cbd878c3'}
+[ERROR] 2026-05-16 10:48:21,134 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '5f964162-18dc-49ed-aa4a-ab82e119f5b3', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_f36a3edae390400fb3978443', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'focus_type', 'coordinate': [600.1479654747226, 137.27176781002638], 'tabId': 401738914, 'text': '养猪场', 'action_title': 'UNKNOWN'}, 'tool_use_id': 'call_f36a3edae390400fb3978443'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efa2d7a0-46a5-4e10-9230-f77b128fd8c2/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+[ERROR] 2026-05-16 10:48:21,135 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': '5f964162-18dc-49ed-aa4a-ab82e119f5b3', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_f36a3edae390400fb3978443', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'focus_type', 'coordinate': [600.1479654747226, 137.27176781002638], 'tabId': 401738914, 'text': '养猪场', 'action_title': 'UNKNOWN'}, 'tool_use_id': 'call_f36a3edae390400fb3978443'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efa2d7a0-46a5-4e10-9230-f77b128fd8c2/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+
+[INFO] 2026-05-16 10:48:21,135 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-16 10:48:21,135 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': '5f964162-18dc-49ed-aa4a-ab82e119f5b3', 'session_id': 'bf1a8d07-2203-4bec-b2ac-f4523f349e97', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_f36a3edae390400fb3978443', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'focus_type', 'coordinate': [600.1479654747226, 137.27176781002638], 'tabId': 401738914, 'text': '养猪场', 'action_title': 'UNKNOWN'}, 'tool_use_id': 'call_f36a3edae390400fb3978443'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/efa2d7a0-46a5-4e10-9230-f77b128fd8c2/bf1a8d07-2203-4bec-b2ac-f4523f349e97_action_2.png'}}
+[INFO] 2026-05-16 10:48:21,139 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:48:21,140 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-16 10:48:21,140 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-16 10:48:21,140 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-23 23:43:46,022 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-23 23:43:46,023 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-23 23:43:46,033 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-23 23:43:46,033 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '访问中国知网（https://kns.cnki.net），搜索以下5篇中文文献是否存在，返回每篇文献能找到的完整信息（作者、题名、期刊名、年份、卷、期、页码等）：1. 范玉霞. 金税四期背景下的纳税筹划误区与风险防控. 2. 皓江. 金税四期下房地产企业税收风险及管控措施探究. 3. 瑾瑜冯，昂谢. 建筑企业项目全周期税务风险管理. 4. 李娜. 金税四期背景下房地产企业税务合规风险识别与防控. 5. 刘玫汝. 金税三期工程对税收遵从的影响研究.'}
+[ERROR] 2026-05-23 23:43:53,732 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'session_id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_0c9a6a4cc7e9494fa3923899', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_0c9a6a4cc7e9494fa3923899'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/c71ca536-10d3-49d7-bb9e-e12dba99b30d/cea9299e-8e47-440d-a8b5-5b8e91e6ed8a_action_2.png'}}
+[ERROR] 2026-05-23 23:43:53,733 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'session_id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_0c9a6a4cc7e9494fa3923899', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_0c9a6a4cc7e9494fa3923899'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/c71ca536-10d3-49d7-bb9e-e12dba99b30d/cea9299e-8e47-440d-a8b5-5b8e91e6ed8a_action_2.png'}}
+
+[INFO] 2026-05-23 23:43:53,733 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-23 23:43:53,733 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'session_id': 'cea9299e-8e47-440d-a8b5-5b8e91e6ed8a', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_0c9a6a4cc7e9494fa3923899', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_0c9a6a4cc7e9494fa3923899'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/c71ca536-10d3-49d7-bb9e-e12dba99b30d/cea9299e-8e47-440d-a8b5-5b8e91e6ed8a_action_2.png'}}
+[INFO] 2026-05-23 23:43:53,737 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-23 23:43:53,737 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-23 23:43:53,737 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-23 23:43:53,737 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-23 23:48:24,628 -- <server.py/__init__ 42> [MCP] 🚀 subagent MCP server created (lazy initialization)
+[INFO] 2026-05-23 23:48:24,629 -- <server.py/__init__ 43> [MCP] ⏳ Environment will be initialized on first tool use
+[INFO] 2026-05-23 23:48:24,643 -- <server.py/call_tool_subagent 158> [MCP] 🔧 Tool: browser_subagent
+[INFO] 2026-05-23 23:48:24,643 -- <server.py/call_tool_subagent 159> [MCP]    Arguments: {'task': '请使用无头浏览器（headless mode）访问中国知网（https://kns.cnki.net），搜索验证以下5篇中文文献是否真实存在，返回能找到的完整信息（作者、题名、期刊名、年份、卷、期、页码等）：1. 范玉霞. 金税四期背景下的纳税筹划误区与风险防控. 2. 皓江. 金税四期下房地产企业税收风险及管控措施探究. 3. 瑾瑜冯，昂谢. 建筑企业项目全周期税务风险管理. 4. 李娜. 金税四期背景下房地产企业税务合规风险识别与防控. 5. 刘玫汝. 金税三期工程对税收遵从的影响研究.'}
+[ERROR] 2026-05-23 23:48:30,387 -- <server.py/call_tool_subagent 199> [MCP] ❌ Error: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'session_id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_e9496426520f440cbb5ba8b5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_e9496426520f440cbb5ba8b5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/177379f3-e7ff-47f7-96a0-1deaca09eba1/aa1cea4c-85c3-4e50-95bc-9a199503d112_action_2.png'}}
+[ERROR] 2026-05-23 23:48:30,388 -- <server.py/call_tool_subagent 200> [MCP] ❌ Traceback: Traceback (most recent call last):
+  File "mcp_server\server.py", line 184, in call_tool_subagent
+  File "mcp_server\environment.py", line 514, in subagent
+  File "mcp_server\environment.py", line 957, in _subagent_impl
+RuntimeError: [Need Output] Browser subagent execution error: empty execution result. -- {'id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'session_id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_e9496426520f440cbb5ba8b5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_e9496426520f440cbb5ba8b5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/177379f3-e7ff-47f7-96a0-1deaca09eba1/aa1cea4c-85c3-4e50-95bc-9a199503d112_action_2.png'}}
+
+[INFO] 2026-05-23 23:48:30,388 -- <server.py/call_tool_subagent 202> [MCP] 🧹 Clearing session_id due to error (was: )
+[INFO] 2026-05-23 23:48:30,389 -- <server.py/call_tool_subagent 207> [Subagent] fail observation: Browser subagent execution error: empty execution result. -- {'id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'session_id': 'aa1cea4c-85c3-4e50-95bc-9a199503d112', 'msg_type': 'task_processing', 'data': {'action': {'type': 'tool_use', 'id': 'call_e9496426520f440cbb5ba8b5', 'name': 'mcp__web-autoglm__browser', 'input': {'action': 'get_current_state', 'action_title': '⚙️ GET_CURRENT_STATE'}, 'tool_use_id': 'call_e9496426520f440cbb5ba8b5'}, 'round': 2, 'image_url': 'https://autoglm-agent.aminer.cn/auto_fly/177379f3-e7ff-47f7-96a0-1deaca09eba1/aa1cea4c-85c3-4e50-95bc-9a199503d112_action_2.png'}}
+[INFO] 2026-05-23 23:48:30,393 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-23 23:48:30,393 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
+[INFO] 2026-05-23 23:48:30,393 -- <server.py/shutdown 540> [MCP] 🛑 Shutting down...
+[INFO] 2026-05-23 23:48:30,393 -- <server.py/shutdown 544> [MCP] ✅ Shutdown complete
