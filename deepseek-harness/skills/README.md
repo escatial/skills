@@ -2,7 +2,7 @@
 
 来源：`~\.agents\skills (DeepSeek Harness 会话技能库)`
 
-共 210 项。
+共 211 项。
 
 | 技能 | 说明 |
 | --- | --- |
@@ -21,6 +21,7 @@
 | fix-sldv-incompatibility | Use when a Simulink model is incompatible with Simulink Design Verifier (sldvcompat returns false, or an SLDV analysis errors out on an unsupported construct) a… |
 | generate-requirement-drafts | "Generates draft requirements from Simulink models. Use when drafting or updating requirement artifacts from a model. Prefers Requirements Toolbox (.slreqx) whe… |
 | inject-faults | "Add, configure, and manage faults on Simulink, Simscape, and System Composer model signals for robustness analysis and safety validation. Use when injecting fa… |
+| interactive-learning-page | 把「教我学 XX / 带我学 XX / 制定学习计划 / 学习手册 / 学习阶梯 / 考我一下」类请求的产出，从纯文本升级为单文件交互式 HTML 学习页面：学习阶梯自评、训练打卡进度条、提示词一键复制、自测题即时判分、速查表翻卡，数据存 localStorage。触发词：教我、带我学、学会、学习计划、学习手册、学习阶梯、交互式学习、考我。 |
 | manage-safety-analysis | "Create, populate, and manage safety analysis spreadsheets (FMEA, FHA, HARA, custom) and fault trees (FTA) in Safety Analysis Manager. Use when the user asks to… |
 | managing-simulink-projects | >- |
 | matlab-access-datafeed | > |
